@@ -99,23 +99,29 @@
 #       f"my litle brother's favourite meal is {favourite_meals['little brother']}\n"
 #       f"my favourite meal is {favourite_meals['mine']}")
 
+# for person, meal in favourite_meals.items():
+#     print(f"{person}'s favorite meal is {meal}")
 
 
-# 3.
 
-python_dic = {
-    'string':'text',
-    'float':1.0,
-    'integer':1,
-    'lower':'changing text to small',
-    'upper':'changing text to big',
-    'append':'adding another element',
-    'get':'pulling element out from dict',
-    'print':'outcoming result in terminal',
-    'if':'decision-making',
-    'for':'loop'
-}
+# # 3.
 
-user = input("Write python element:  ")
-if user.lower in python_dic:
-    print(python_dic)
+# python_dic = {
+#     'string':'text',
+#     'float':1.0,
+#     'integer':1,
+#     'lower':'changing text to small',
+#     'upper':'changing text to big',
+#     'append':'adding another element',
+#     'get':'pulling element out from dict',
+#     'print':'outcoming result in terminal',
+#     'if':'decision-making',
+#     'for':'loop'
+# }
+
+# user = input("Write python element:  ")
+
+# if user in python_dic:
+#     print(f"{user.lower()} - {python_dic[user]}")
+# else:
+#     print('There isn\'t such elemet')
